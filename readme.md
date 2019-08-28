@@ -27,7 +27,8 @@ Block
 
 quiero que pensemos en esté display como el flujo que tenemos cada vez que escribimos. Por ejemplo, nosotros escribimos de izquierda a derecha, pero cuando se nos acaba el espacio horizontalmente, seguimos abajo. Esté es el flujo de bloque en nuestra escritura(de arriba a bajo) y es exactamente el que obedece display block, lo que quiere decir que los elementos se visualizan uno debajo del otro.
 
-Algunos elementos que por defecto tienen este tipo de display son: "<div>, <p>, <h1>, <section> y <ul>"
+Algunos elementos que por defecto tienen este tipo de display son: 
+``<div>, <p>, <h1>, <section> y <ul>``
 
 Inline:
 
