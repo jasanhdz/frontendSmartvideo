@@ -1,0 +1,30 @@
+{
+  "name": "smartvideo",
+  "version": "1.0.0",
+  "description": "maquetación de smartVideo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasanHdz/frontendSmartvideo.git"
+  },
+  "keywords": [
+    "html",
+    "frontend",
+    "smartvideo"
+  ],
+  "author": "jasan814@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasanHdz/frontendSmartvideo/issues"
+  },
+  "homepage": "https://github.com/JasanHdz/frontendSmartvideo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/html": "^5.1.11",
+    "babel-loader": "^8.0.6"
+  }
+}
