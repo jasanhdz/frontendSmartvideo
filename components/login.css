@@ -13,12 +13,15 @@
   border: 2px solid white;
   border-radius: 40px;
   color: white;
-  padding: 60px 68px 40px;
+  padding: 50px 70px 40px;
   min-height: 600px;
   width: 300px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+}
+.login__container h2 {
+  letter-spacing: 1px;
 }
 .login__container--form {
   display: flex;
@@ -111,4 +114,23 @@
 }
 .footer a:hover {
   text-decoration: underline;
+}
+.center {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .login {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .login__container {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
