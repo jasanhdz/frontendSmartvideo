@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  /* background-color: #21C08B */
   font-family: 'Muli', sans-serif;
+  overflow-x: hidden;
 }
 .header {
   background-color: #21C08B;

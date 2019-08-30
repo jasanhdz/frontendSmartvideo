@@ -7,14 +7,14 @@
   <title>Login</title>
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <img  class="header__img" src="../assets/_lego.png" alt="logo">
         <div class="header__menu">
           <div class="header__menu--profile">
-            <img src="../assets/profile-2.png" alt="profile">
+            <img tabindex="0" src="../assets/profile-2.png" alt="profile">
             <p>Perfil</p>
           </div>
           <ul>
@@ -26,13 +26,13 @@
 
     <section class="login">
       <div class="login__container">
-        <h2>Inicia Sesión</h2>
+        <h2 tabindex="0">Inicia Sesión</h2>
         <form class="login__container--form" action="" method="post">
-          <input class="input" type="email" name="" placeholder="Correo">
-          <input class="input" type="password" name="" placeholder="Contraseña">
+          <input aria-label="Correo" class="input" type="email" name="" placeholder="Correo">
+          <input aria-label="Contraseña" class="input" type="password" name="" placeholder="Contraseña">
           <button class="button"  type="submit">Iniciar Sesión</button>
           <div class="login__container--remember-me">
-            <label>
+            <label >
               <input type="checkbox" name="box1" value="checkbox">Recuerdame
             </label>
             <a href="/">Olvide mi Contraseña</a>
